@@ -17,4 +17,8 @@ export class CardListComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  trackByFn(index: number, item: any): number { 
+    return item.id; 
+  }
+
 }

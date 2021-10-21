@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+
+// Import functions, variables, and mixins needed by other Bootstrap files
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// Import Bootstrap Reboot
+@import "~bootstrap/scss/root"; // Contains :root CSS variables used by other Bootstrap files
+@import "~bootstrap/scss/reboot";
+
+// @import url("./_reset.css");
+* {box-sizing: border-box;}

@@ -9,7 +9,7 @@ export class CardComponent implements OnInit {
 
   title: string = 'Default Title';
   text: string = 'Default Text';
-  @Input() specie: specieType = { 
+  @Input() item: specieType = { 
     characters: 9999,
     classification: 'Default classification',
     description: 'Default description',
@@ -26,7 +26,7 @@ export class CardComponent implements OnInit {
 
 }
 
-type specieType =
+export interface specieType
   {
     characters: number,
     classification: string,
